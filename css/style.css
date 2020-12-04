@@ -1,0 +1,84 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding: 50px 0;
+}
+
+/*======= Nav =======*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul.hide{
+ display: none;
+}
+
+#menu{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    right: 0;
+    top: 40px;    
+}
+
+/* ==== Banner ====  */
+
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(158, 158, 158, 0.38);
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/foto.jpg");
+    border-radius: 100px;
+    margin: auto;
+}
+/* ===== POST =====*/
+
+.section-post{
+    background: #aae2f7;
+}
+
+/* ==== Component ====  */
+
+.primary-button{
+    background-color: #0d1568;
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.card .card-body{
+    padding: 20px;
+}
+
+/* ==== Helpers ====  */
+
+.primary-text{
+    color:  #0d1568;
+}
+
+.center-text{
+    text-align: center;;
+}
+
+.space-top{
+    margin-top: 20px;;
+}
+
